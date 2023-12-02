@@ -36,6 +36,7 @@ export const NavContainer = styled(motion.nav)`
   a {
     color: ${(props) => props.theme.colors.textLight};
     font-size: 24px;
+    cursor: pointer;
     /* background-attachment: fixed; */
 
     :hover {
@@ -79,6 +80,7 @@ export const MediumHeaderContainer = styled(motion.div)`
     top: 20px;
     color: ${(props) => props.theme.colors.textLight};
     font-size: 30px;
+    cursor: pointer;
   }
 `;
 
@@ -103,6 +105,7 @@ export const MediumNavContainer = styled(motion.div)`
     font-size: 30px;
     font-weight: normal;
     transition: background 1.5s ease-in all;
+    cursor: pointer;
     :hover {
       background: linear-gradient(90deg, #2af598, #009efd);
     }

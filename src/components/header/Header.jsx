@@ -44,6 +44,7 @@ export const MediumHeader = ({ showHeader, setShowHeader, offset }) => {
         <Link
           to='about'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
@@ -53,6 +54,7 @@ export const MediumHeader = ({ showHeader, setShowHeader, offset }) => {
         <Link
           to='price'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
@@ -62,6 +64,7 @@ export const MediumHeader = ({ showHeader, setShowHeader, offset }) => {
         <Link
           to='contact'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
@@ -81,6 +84,7 @@ export const MainHeader = ({ showHeader, setShowHeader, to, offset = -50 }) => {
         <Link
           to='about'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
@@ -90,6 +94,7 @@ export const MainHeader = ({ showHeader, setShowHeader, to, offset = -50 }) => {
         <Link
           to='price'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
@@ -99,6 +104,7 @@ export const MainHeader = ({ showHeader, setShowHeader, to, offset = -50 }) => {
         <Link
           to='contact'
           spy={true}
+          smooth={true}
           offset={offset}
           duration={1000}
           onClick={() => setShowHeader(false)}
